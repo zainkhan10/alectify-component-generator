@@ -1,0 +1,13 @@
+import { IReduxAction } from 'redux/interfaces';
+
+// Add your actions here with interface
+export interface I<%= componentName %>Actions {
+	exampleAction: IReduxAction<IExampleAction>;
+}
+
+export interface I<%= componentName %>InitialState {}
+
+
+export interface IExampleAction {
+	param: string;
+}

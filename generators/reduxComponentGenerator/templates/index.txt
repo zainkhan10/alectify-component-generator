@@ -1,0 +1,23 @@
+import { createActionAndReducers } from 'redux/utils/reducer.helper';
+
+import { I<%= componentName %>Actions } from './<%= componentName %>.interface';
+
+import { reducerName } from './<%= componentName %>.constants';
+
+import <%= componentNameCamelCase %>InitialState from './<%= componentName %>.initialState';
+
+import * as <%= componentNameCamelCase %>Effects from './affects';
+
+export * from './<%= componentName %>.interface';
+
+export * from './<%= componentName %>.constants';
+
+export * from './<%= componentName %>.enum';
+
+const { actions, reducer } = createActionAndReducers<I<%= componentName %>Actions>(
+	reducerName,
+	<%= componentNameCamelCase %>InitialState,
+	<%= componentNameCamelCase %>Effects
+);
+
+export { actions, <%= componentNameCamelCase %>InitialState, reducer };

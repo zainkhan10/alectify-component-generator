@@ -1,0 +1,16 @@
+import { IReduxActionResponse } from 'redux/interfaces';
+import {
+	I<%= componentName %>InitialState,
+	IExampleAction
+} from '../<%= componentName %>.interface';
+
+export const exampleAction = (
+	state: I<%= componentName %>InitialState,
+	action: IReduxActionResponse<IExampleAction>
+) => {
+	const { payload } = action;
+	if (payload) {
+		// do thing here
+	}
+	return state;
+};

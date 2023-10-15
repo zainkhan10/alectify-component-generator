@@ -1,0 +1,48 @@
+# Ignore files and directories created by various operating systems or IDEs
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# Node.js
+node_modules/
+
+# Compiled source code
+/dist/
+
+# Log files
+*.log
+
+# Environment-specific settings
+.env
+
+# Ignore all .gitignore files
+!.gitignore
+
+# Ignore temporary files
+*.swp
+
+# Ignore database files
+*.sqlite
+
+# Ignore build and package files
+build/
+bin/
+*.exe
+*.dll
+*.apk
+*.lib
+*.so
+*.dylib
+*.log
+*.tmp
+*.pid
+*.lock
+*.sock
+*.DS_Store

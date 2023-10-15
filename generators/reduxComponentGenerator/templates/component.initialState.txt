@@ -1,0 +1,5 @@
+import { I<%= componentName %>InitialState } from "./<%= componentName %>.interface";
+
+const <%= componentNameCamelCase %>InitialState: I<%= componentName %>InitialState = {};
+
+export default <%= componentNameCamelCase %>InitialState;

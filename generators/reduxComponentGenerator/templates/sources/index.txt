@@ -1,0 +1,30 @@
+
+import { Dispatch } from "react";
+import { IParams, SourceActionType } from "redux/interfaces";
+import { actions } from "..";
+
+export const get<%= componentNameCamelCase %>: SourceActionType = (
+  // write your arguments
+  params: IParams,
+) => {
+  return async (dispatch: Dispatch<any>) => {
+    try {
+     // write your code here
+    } catch (ex) {
+     // write your code here
+    }
+  };
+};
+
+export const post<%= componentNameCamelCase %>: SourceActionType = (
+  // write your arguments
+  params: IParams,
+) => {
+  return async (dispatch: Dispatch<any>) => {
+    try {
+     // write your code here
+    } catch (ex) {
+     // write your code here
+    }
+  };
+};
