@@ -1,6 +1,6 @@
 {
-  "name": "generator-alectify",
-  "version": "2.0.0",
+  "name": "alectify-generator",
+  "version": "1.0.1",
   "description": "Generators for Alectify",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
